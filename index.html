@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      input {
+        width: 100px;
+        padding: 10px 15px;
+      }
+      .header {
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form" >
+      <input class="marka" type="text" placeholder="Marka" />
+      <input class="model" type="text" placeholder="Model" />
+      <input class="year" type="number" placeholder="Year" />
+      <input class="desc" type="text" placeholder="Description" />
+      <input type="checkbox" class="checkbox" />
+      <button class="btn" type="submit">Sumbit</button>
+    </div>
+    <table class="table">
+      <thead class="header">
+        <td>Marca</td>
+        <td>Model</td>
+        <td>Year</td>
+        <td>Is New</td>
+        <td>Description</td>
+      </thead>
+      <tr></tr>
+    </table>
+
+    <script src="main.js"></script>
+  </body>
+</html>
